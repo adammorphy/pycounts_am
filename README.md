@@ -10,7 +10,22 @@ $ pip install pycounts_am
 
 ## Usage
 
-- TODO
+### Imports
+```python
+from pycounts_am.pycounts_am import count_words
+from pycounts_am.plotting import plot_words
+```
+
+### Count Words
+```python
+count_words("pycounts_am/zen.txt")
+```
+
+### Plot Words
+```python
+word_counts = count_words("pycounts_am/zen.txt")
+plot_words(word_counts, n=5)
+```
 
 ## Contributing
 
